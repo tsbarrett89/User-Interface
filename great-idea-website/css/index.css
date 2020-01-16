@@ -72,5 +72,14 @@ body {
 }
 
 .nav {
-	display: inline-block;
+	width: 100%;
+	text-align: center;
+	border: 1px solid red;
+}
+
+nav a {
+	text-decoration: none;
+	color: grey;
+	margin: 2% 3% 0 0;
+	vertical-align: middle;
 }
