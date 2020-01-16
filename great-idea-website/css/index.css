@@ -69,6 +69,7 @@ body {
 	width: 100%;
 	display: inline-block;
 	margin: 0 auto;
+	text-align: center;
 }
 
 .nav {
@@ -80,6 +81,30 @@ body {
 nav a {
 	text-decoration: none;
 	color: grey;
-	margin: 2% 3% 0 0;
+	margin: 2% 5% 0 0;
 	vertical-align: middle;
+}
+
+header {
+	width: 80%;
+	display: inline-block;
+	border: 1px solid blue;
+}
+
+.header-left {
+	width: 40%;
+	display: inline-block;
+	text-align: center;
+	transform: translateY(-30%)
+}
+
+.header-left h1 {
+	font-size: 4.5rem;
+
+}
+
+.header-right {
+	width: 40%;
+	display: inline-block;
+	text-align: right;
 }
